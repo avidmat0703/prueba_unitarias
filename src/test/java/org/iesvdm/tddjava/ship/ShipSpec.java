@@ -126,7 +126,7 @@ public class ShipSpec {
     public void whenReceiveCommandsThenOForOkAndXForObstacle() {
         ship.getLocation().getPoint().setX(44);
         ship.getLocation().getPoint().setY(45);
-        assertTrue(ship.receiveCommands("f").equals("X"));
-        assertTrue(ship.receiveCommands("b").equals("O"));
+        assertEquals(ship.receiveCommands("f"), "X");
+        assertEquals(ship.receiveCommands("b"), "O");
     }
 }

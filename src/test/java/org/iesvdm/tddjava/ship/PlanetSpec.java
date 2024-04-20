@@ -29,5 +29,4 @@ public class PlanetSpec {
     public void whenInstantiatedThenObstaclesAreSet() {
         assertEquals(planet.getObstacles(), obstacles);
     }
-
 }

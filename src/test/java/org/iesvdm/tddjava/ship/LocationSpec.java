@@ -174,5 +174,4 @@ public class LocationSpec {
         obstacles.add(lugar);
         assertFalse(location.backward(max,obstacles));
     }
-
 }

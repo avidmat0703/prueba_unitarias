@@ -22,5 +22,4 @@ public class PointSpec {
     public void whenInstantiatedThenYIsSet() {
         assertEquals(point.getY(), y);
     }
-
 }
